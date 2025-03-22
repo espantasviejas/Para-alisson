@@ -1,4 +1,23 @@
-<header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Alisson</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="fade-in">Para Alisson</h1>
+        <p class="fade-in delay">"El amor es paciente, es bondadoso. El amor no es envidioso ni jactancioso ni orgulloso." - 1 Corintios 13:4</p>
+        <p class="fade-in delay">"Yo soy de mi amado, y mi amado es mío" - Cantares 6:3</p>
+        <img src="flores.png" alt="Flores amarillas" class="flower">
+        <button onclick="mostrarMensaje()">💛 Para Ti 💛</button>
+        <p id="mensaje" class="hidden">Siempre serás especial para mí.</p>
+    </div>
+</body>
+</html><header>
 
 <!--
   <<< Author notes: Course header >>>
